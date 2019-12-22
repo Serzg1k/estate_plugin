@@ -11,6 +11,7 @@ require_once( 'libs/scripts.php' );
 require_once( 'libs/functions.php' );
 require_once( 'libs/acf-init.php' );
 require_once( 'libs/shortcodes.php' );
+require_once( 'libs/widget.php' );
 
 add_filter( 'template_include', 'my_plugin_templates' );
 function my_plugin_templates( $template ) {
